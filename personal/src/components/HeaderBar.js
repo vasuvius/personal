@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import RoundedProfile from "./RoundedProfile";
+import ChangePage from "./changePage";
 
 export default class HeaderBar extends Component {
     render(){
@@ -12,6 +13,7 @@ export default class HeaderBar extends Component {
             <p>
                 githubLink
             </p>
+            <ChangePage />
             </div>
         );
     }

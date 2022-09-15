@@ -8,8 +8,8 @@ export default class ChangePage extends Component {
         return (
                 <div>
                     <nav className="cl-effect-1">
-                        <Link to="/">Bio</Link>
-                        <Link to="/resume">Resume</Link>
+                        <Link className="link-item" to="/">Bio</Link>
+                        <Link className="link-item" to="/resume">Resume</Link>
                     </nav>
                 </div>
           );

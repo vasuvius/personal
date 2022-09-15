@@ -9,8 +9,8 @@ export default class RoundedProfile extends Component {
         <ReactRoundedImage
           image={MyPhoto}
           roundedColor="#006623"
-          imageWidth="125"
-          imageHeight="125"
+          imageWidth="85"
+          imageHeight="85"
           roundedSize="13"
           borderRadius="70"
         />

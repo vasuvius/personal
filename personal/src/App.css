@@ -1,24 +1,21 @@
 .App {
   text-align: center;
 }
-
+/* HEADER ITEMS */
 .App-header {
   background-color: #1b1e23;
-  min-height: 5em;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-top: .5em;
-  padding-bottom:.5em;
+  padding:.5em;
 }
 
 .header {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 .header-above {
   display: flex;
@@ -31,14 +28,22 @@
   flex-direction: row;
   padding: 1em;
   width: 6em;
-  align-self: right;
+}
+.header-item a {
+  color: white;
 }
 .nav-bar{
   display: flex;
+
+}
+.cl-effect-1 {
+  display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 .cl-effect-1 a{
   color: white;
+  width: 6em;
 }
 .cl-effect-1 a:link{
   text-decoration: None;
@@ -77,4 +82,27 @@
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   transform: translateX(0px);
+}
+
+/* BIO ITEMS */
+
+.text-typing {
+  font-size: 40px;
+
+}
+.bio-text{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
+.text-body {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  width:60%;
+}
+.text-header {
+  font-size: 30px;
+  font-style: italic;
 }

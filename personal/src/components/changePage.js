@@ -7,8 +7,8 @@ export default class ChangePage extends Component {
     render(){
         return (
                 <div>
-                    <nav>
-                        <Link to="/">Home</Link>
+                    <nav className="cl-effect-1">
+                        <Link to="/">Bio</Link>
                         <Link to="/resume">Resume</Link>
                     </nav>
                 </div>

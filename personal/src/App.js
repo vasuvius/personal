@@ -12,9 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
-          <HeaderBar />
-        </header>
+        <HeaderBar />
         <Routes>
           <Route exact path="/" element={<Bio />} />
           <Route path="/resume" element={<Resume />}/>

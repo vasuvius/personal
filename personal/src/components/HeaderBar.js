@@ -20,6 +20,11 @@ export default class HeaderBar extends Component {
                             Github
                         </a>
                     </div>
+                    <div className="header-item">
+                        <a href="https://www.linkedin.com/in/jack-vasu-b2145118a">
+                            LinkedIn
+                        </a>
+                    </div>
                 </div>
                 <div className="nav-bar">
                     <ChangePage />

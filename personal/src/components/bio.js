@@ -35,7 +35,7 @@ export default class Bio extends Component {
                         </div>
                         <div className="text-body">
                         Welcome to my site! I'm Jack Vasu, a Dartmouth College '22 based in San Francisco. 
-                        I majored in Computer Science with a minor in Environmental Studies. In my free time I play tennis, 
+                        I majored in Computer Science with a minor in Environmental Studies. In my free time, I play tennis, 
                         hike, travel, and lose chess matches. If you want to chat, my socials are listed above. 
                         </div>
                     </div>

@@ -9,9 +9,9 @@ export default class Resume extends Component {
         const res = [
             {
                 "title": "Software Engineer II, Walmart eCommerce",
-                "date": "October 2022 -",
+                "date": "October 2022 - Present",
                 "desc":"Working on the Item Status API team.",
-                "tools": "Spring Stack, Github.",
+                "tools": "Tools: Spring Stack, Github.",
                 "styling":"text-section sec",
                 "img":walmartLogo
         },
@@ -19,15 +19,15 @@ export default class Resume extends Component {
                 "title": "Software Engineer Intern, Walmart eCommerce",
                 "date": "June 2021 - August 2021",
                 "desc":"Migrated Item Status API search platform from Solr to Elasticsearch using Spring Boot. Built new Elasticsearch cluster with Kibana data visualization dashboard tools. Streamlined data indexing resulting in a 75% reduction in server costs for the Item Status API team.",
-                "tools": "Spring Stack, Elasticsearch, Solr, Github.",
+                "tools": "Tools: Spring Stack, Elasticsearch, Solr, Github.",
                 "styling":"text-section",
                 "img":walmartLogo
             },
             {
-                "title":"Research Scholar, Robertson Autism Resarch Lab",
+                "title":"Research Scholar, Robertson Autism Research Lab",
                 "date": "June 2020 - June 2021",
                 "desc":"Designed and implemented a user authentication system that allows multiple research subjects to use the same VR headset without overlapping data issues. Built using PHP, C#, and Unity. Created a VR consent screen to increase awareness of patient rights. Built using C# and Unity.",
-                "tools":"C#, Unity, PHP, DropBox.",
+                "tools":"Tools: C#, Unity, PHP, DropBox.",
                 "styling":"text-section sec",
                 "img":robertsonLogo
 
@@ -36,7 +36,7 @@ export default class Resume extends Component {
                 "title": "Software Engineer Intern, StudyMaker LLC",
                 "date": "June 2019 - August 2019",
                 "desc": "Redesigned and implemented client interface using JS, HTML/CSS in order to enhance website usability.",
-                "tools": "LAMP stack, GitHub",
+                "tools": "Tools: LAMP stack, GitHub",
                 "styling":"text-section",
                 "img":studymaker
             }
@@ -60,11 +60,11 @@ export default class Resume extends Component {
                     {res.map(function(d){
                         return (
                         <div className={d.styling}>
+                            <img src={d.img} className="resume-picture" alt={d.img.name}/>
                             <div className="text-header" key={d.title}> {d.title}</div>
                             <div className="text-header sub" key={d.date}> {d.date} </div>
                             <div className="text-body" key={d.name}>{d.desc}</div>
                             <div className="text-skills" key={d.tools}> {d.tools}</div>
-                            <img src={d.img} className="resume-picture" alt={d.img.name}/>
                         </div>
                         )
                     })}
@@ -76,10 +76,10 @@ export default class Resume extends Component {
                     {educ.map(function(d){
                         return (
                         <div className={d.styling}>
+                            <img src={d.img} className="resume-picture" alt={d.img.name} />
                             <div className="text-header" key={d.title}> {d.title}</div>
                             <div className="text-header sub"key={d.date}> {d.date} </div>
                             <div className= "text-body" key={d.name}>{d.desc}</div>
-                            <img src={d.img} className="resume-picture" alt={d.img.name} />
                         </div>
                         )
                     })}

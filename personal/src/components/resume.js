@@ -3,15 +3,24 @@ import walmartLogo from "../images/walmartLogo.jpg";
 import robertsonLogo from "../images/robertsonLab.jpg";
 import dartmouthLogo from "../images/dartmouthLogo.jpg";
 import studymaker from "../images/studymaker.jpg";
+import palantirLogo from "../images/palantir.jpg";
 
 export default class Resume extends Component {
     render(){
         const res = [
             {
+                "title": "Deployment Strategist, Palantir",
+                "date": "January 2024 - Present",
+                "desc":"Coding, product management and handling client relationships for Palantir's commerical practice.",
+                "tools": "Tools: Foundry, AIP",
+                "styling":"text-section sec",
+                "img":palantirLogo
+        },
+            {
                 "title": "Software Engineer II, Walmart eCommerce",
-                "date": "October 2022 - Present",
-                "desc":"Working on the Item Status API team.",
-                "tools": "Tools: Spring Stack, Github.",
+                "date": "October 2022 - January 2024",
+                "desc":"Built and managed Walmart and Sam's Club's high-traffic reactive supplier orchestration. Handled 500 million - 1 bil events per day",
+                "tools": "Tools: Java, Spring, ChatGPT, Elasticsearch, Cassandra, Kubernetes, REST apis, Microservice Architecture, Project Reactor, Orchestration.",
                 "styling":"text-section sec",
                 "img":walmartLogo
         },

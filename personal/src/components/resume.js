@@ -3,19 +3,10 @@ import walmartLogo from "../images/walmartLogo.jpg";
 import robertsonLogo from "../images/robertsonLab.jpg";
 import dartmouthLogo from "../images/dartmouthLogo.jpg";
 import studymaker from "../images/studymaker.jpg";
-import palantirLogo from "../images/palantir.jpg";
 
 export default class Resume extends Component {
     render(){
         const res = [
-            {
-                "title": "Deployment Strategist, Palantir",
-                "date": "January 2024 - Present",
-                "desc":"Coding, product management and handling client relationships for Palantir's commerical practice.",
-                "tools": "Tools: Foundry, AIP",
-                "styling":"text-section sec",
-                "img":palantirLogo
-        },
             {
                 "title": "Software Engineer II, Walmart eCommerce",
                 "date": "October 2022 - January 2024",
